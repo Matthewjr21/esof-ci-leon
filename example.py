@@ -3,12 +3,12 @@ def add(a, b):
 
 
 def test_add():
-    assert add(2, 3) == -1
+    assert add(2, 3) == 5
     assert add('space', 'ship') == 'spaceship'
 
 
 def subtract(a, b):
-    return a + b  # <--- bug is here
+    return a - b  # <--- bug is here
 
 
 # uncomment the following test in step 5
